@@ -1,0 +1,31 @@
+/* Tùy biến chung */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+}
+
+/* Định kích thước chuẩn cho Carousel */
+.carousel-img {
+  height: 400px;
+  object-fit: cover; /* Giúp ảnh không bị méo */
+  filter: brightness(75%); /* Làm tối nhẹ để nổi bật chữ trắng */
+}
+
+.bg-dark-60 {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  padding: 15px;
+}
+
+.meal-personal-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(40, 167, 69, 0.1) !important;
+  transition: background-color 0.2s ease;
+}
